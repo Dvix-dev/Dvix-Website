@@ -1,0 +1,160 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://wallpaper.dog/large/5440006.jpg);
+    /* background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Grunge-Aesthetic-Background-City-Night.jpg); */
+    background-size: cover; 
+    background-position: center;
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 11px 10px;
+        outline: 0;
+        border: 1px solid #000000;
+        border-radius: 0px;
+        background: #000000;
+        color: #ffffff;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: #13ff06;
+            background: #000000;
+        }
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-top-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
+
+.dropdown {
+	display: inline-block;
+	position: relative;
+  }
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	width: 100%;
+	overflow: auto;
+	box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  .dropdown-content a {
+	display: block;
+	color: #000000;
+	padding: 5px;
+	text-decoration: none;
+  }
+  .dropdown-content a:hover {
+	color: #FFFFFF;
+	background-color: #00A4BD;
+  }
+
+#topmenu {
+    text-align: centerenter;
+	list-style-type: none;
+    display: block;
+    align-items: center;
+    text-transform: uppercase;
+   	height: 70px;
+    margin-top: 50px;
+    font-size: 20px;
+    display: flex;
+    background-color: #000000;
+}
+.topmenu{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+    box-sizing: content-box;  
+    background-color: #000000;
+    padding: 21px;
+}
+[topmenu="click"]:hover {
+    color: #00ff1b;
+}
+
+.upmenu{
+	display: block;
+	margin: 15px;
+	position: sticky;
+	border: 0px;
+	background-color: rgb(61, 61, 61);
+}
+
+#logoback{
+	margin-left: 100px;
+	margin-right: 1030px;
+}
+
+a {
+	color: rgb(204, 204, 204) ;
+	text-decoration: none;
+	text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
+}
+
+#pie {
+	margin: auto;
+	margin-top: 350px;	
+	float:center;
+	text-align: center;
+}
+
+.pie {
+	text-align: center;
+}
+
+.social-link {
+	text-align: center;
+}
+	
+#numeraciontrabajos {
+	color: rgb(204, 204, 204) ;
+	text-decoration: none;
+	text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
+}
+
+#contenidotrabajos {
+	margin-left: 50px;
+}
+
