@@ -2,6 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
     background-image: url(source/wallpaperflare.com_wallpaper.jpg);
     background-size: cover; 
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 h1 {
@@ -9,8 +16,36 @@ h1 {
     text-align: center;
     font-size: 300%;
     color: red;
-    text-shadow: 3px  0px 0px black,
-    0px  3px 0px black,
-   -3px  0px 0px black,
-    0px -3px 0px black;
+    text-shadow: 2px  0px 0px black,
+    0px  2px 0px black,
+   -2px  0px 0px black,
+    0px -2px 0px black;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+.button {
+    border-top: 10px;
+    box-shadow: 10%;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+    background-color: rgba(247, 247, 247, 0.884);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin: 1rem;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 280%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(247, 247, 247);    
 }

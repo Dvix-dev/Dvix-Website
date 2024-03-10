@@ -1,0 +1,205 @@
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Kanit', sans-serif;
+    /* background-image: url(https://i.pinimg.com/originals/37/45/c3/3745c3e50e0e529a2b4e0c78637e1ce3.jpg); */
+    background-image: url(https://i.imgur.com/RVKgqsc.jpg);
+    /* background-size: cover;  */
+    /* background-p  center; */
+    color: azure;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+#formbox {
+    border-top: 10px;
+    box-shadow: 10%;
+    position: relative;
+    padding: 3rem;
+    width: fit-content; 
+    max-width: calc(100% - 40px);
+    border-radius: 15px;
+    margin: 0 auto;
+    /* margin-top: 3rem; */
+    background-color: rgba(22, 22, 22, 0.884);
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    background-image: url(https://a-static.besthdwallpaper.com/the-hallowed-seamstress-gwen-lol-league-of-legends-wallpaper-2560x1600-94413_7.jpg);
+    /* background-size: cover;  */
+    /* background-position: center; */
+}
+
+input {
+    background-color: #22db1c;
+    border-color: #22db1c;
+}
+
+.izquierda {
+    float: left;
+}
+
+.derecha {
+    float: right;
+}
+
+.social-mini-box {
+    border-top: 10px;
+    box-shadow: 10%;
+    width: 250px;
+    /* height: 75px; */
+    border-radius: 15px;
+    position: relative;
+    background-color: rgba(19, 19, 19, 0.884);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin: 1rem;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.connectedAccountOpenIcon-OngaxI {
+    width: 20px;
+    height: 20px;
+    color: var(--interactive-normal);
+    display: flex;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: rgb(255, 255, 255);
+    justify-content: right;
+}
+
+.connectedAccountName-1e_h-k, .connectedAccountNameTextContainer-lNExEJ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+} 
+
+.connectedAccountContainer-2TWiXT {
+    margin-top: 16px;
+    padding: 12px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--profile-body-divider-color,var(--background-modifier-accent));
+}
+
+.connectedAccount-2NOwd0, .connectedAccountChildren-2jEgw3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+a.anchor-1X4H4q anchorUnderlineOnHover-wiZFZ_ {
+    float: left;
+}
+
+.iconito {
+    width: 25px;
+    margin-right: 5px;
+}
+
+svg.flowerStar-2tNFCR {
+    vertical-align: 0;
+    /* margin-left: 0px; */
+}
+
+.conectedaccountnametext {
+    margin-right: 3px;
+}
+
+.childContainer-U_a6Yh {
+    margin-top: -28px;
+}
+
+
+
+
+@keyframes marginAnimation {
+    from {
+      margin-left: -84;
+    }
+    to {
+      margin-left: 116px;
+    }
+  }
+
+#fyoutube {
+    margin-left: 116px;
+    animation: marginAnim 5s;
+}
+
+@keyframes marginAnimatio {
+    from {
+      margin-left: -124px;
+    }
+    to {
+      margin-left: 76px;
+    }
+  }
+
+#finsta {
+    margin-left: 76px;
+    animation: marginAnimatio 5s;
+}
+
+@keyframes marginAnimati {
+    from {
+      margin-left: -116px;
+    }
+    to {
+      margin-left: 82px;
+    }
+  }
+
+#ftwitch {
+    margin-left: 82px;
+    animation: marginAnimati 5s;
+}
+
+@keyframes marginAnimat {
+    from {
+      margin-left: -150px;
+    }
+    to {
+      margin-left: 50px;
+    }
+  }
+
+#fspoty {
+    margin-left: 50px;
+    animation: marginAnimat 5s;
+}
+
+@keyframes marginAnima {
+    from {
+      margin-left: -118px;
+    }
+    to {
+      margin-left: 82px;
+    }
+  }
+
+#fdiscord {
+    margin-left: 82px;
+    animation: marginAnima 5s;
+}
+
+@keyframes marginAnim{
+    from {
+      margin-left: -86px;
+    }
+    to {
+      margin-left: 114px;
+    }
+  }
+
+#fkick {
+    margin-left: 114px;
+    animation: marginAnim 5s;
+}
