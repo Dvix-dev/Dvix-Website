@@ -1,0 +1,31 @@
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Kanit', sans-serif;
+    background-image: url(https://img.freepik.com/vector-gratis/copia-espacio-fondo-blanco-ondulado-capas_23-2148845469.jpg?w=2000);
+    /* background-size: cover;  */
+    /* background-p  center; */
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+#formbox {
+    border-top: 10px;
+    box-shadow: 10%;
+    border-radius: 37px;
+    box-shadow: 0 10px 100px -20px rgb(19 17 17);
+    position: relative;
+    background-color: rgba(228, 228, 228, 0.884);
+    padding: 3rem;
+}
+
+#aviso {
+    color: rgba(255, 0, 0, 0.781);
+    size: 1px;
+}
+
+input {
+    background-color: #187c14;
+    border-color: #187c14;
+}
