@@ -73,13 +73,13 @@ div.subtitle {
     align-items: center;
     margin-bottom: 15px;
     font-family: 'Roboto', sans-serif;
+    transition: 0.2s;
 }
 
 .minibox:hover {
     background-color: black;
     cursor: pointer;
-    border-color: 
-    s
+    transform: scale(1.05);
 }
 
 .iconito {
