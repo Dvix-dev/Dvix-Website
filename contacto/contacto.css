@@ -10,6 +10,10 @@ h1 {
     font-family: 'Kanit', sans-serif;
 }
 
+.container{
+    padding: 70px;
+}
+
 #formbox {
     border-top: 10px;
     box-shadow: 10%;
